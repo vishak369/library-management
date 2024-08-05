@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div  class="container">
+        <div style="text-align: center;"> 
+            <h1 style="text-align: center;padding-bottom:55px;padding-top:30px">Admin Panel</h1>
+            <a href="{{url_for('admin_dashboard2')}}"> <button type="button" class="btn btn-outline-primary">Add/update Books</button></a>
+            <a href="{{url_for('home')}}"> <button type="button" class="btn btn-outline-primary">Delete Books</button></a>
+            <a href="{{url_for('view_user_books')}}"> <button type="button" class="btn btn-outline-primary">View User Books</button></a>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
